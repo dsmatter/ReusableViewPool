@@ -1,0 +1,6 @@
+framework module ReusableViewPool {
+  umbrella header "ReusableViewPool-umbrella.h"
+
+  export *
+  module * { export * }
+}

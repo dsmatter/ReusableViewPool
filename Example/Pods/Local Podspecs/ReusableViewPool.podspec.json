@@ -1,0 +1,25 @@
+{
+  "name": "ReusableViewPool",
+  "version": "0.1.0",
+  "summary": "A short description of ReusableViewPool.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/ReusableViewPool",
+  "license": "MIT",
+  "authors": {
+    "Daniel Strittmatter": "daniel@smattr.de"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/ReusableViewPool.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "ReusableViewPool": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

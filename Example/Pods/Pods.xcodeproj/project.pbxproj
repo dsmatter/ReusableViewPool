@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03A9F08012D7FAFB3E7390A3E5AD5E8E /* Pods-ReusableViewPool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FEAA5020186EF87FCD4EA9A975734A /* Pods-ReusableViewPool_Tests-dummy.m */; };
+		1903FE18956552FBEE079A076250A433 /* Pods-ReusableViewPool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 659623921D1523EDBCE2AA7AC08E87A5 /* Pods-ReusableViewPool_Example-dummy.m */; };
+		20D4BE8ABC621FBAC5D2DE1084DFC0DE /* ReusableViewPool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D2EDBFEB6FEE5F550C8AD08F5B3A6D2 /* ReusableViewPool-dummy.m */; };
+		67FC56441C7E168B00B6E5AB /* ReusableViewPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC56431C7E168B00B6E5AB /* ReusableViewPool.swift */; };
+		9E376B86CABD86E5CFB0FA181D58B508 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		A7543451DF1245B80B4EF94990439173 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		AB4A015855699B5EC6411CB29E27F2FC /* Pods-ReusableViewPool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47AE4317212AAB1D156CB02503540BF9 /* Pods-ReusableViewPool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0A4CA2BCB79F5ADF7E610A2EBEDA2C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		D4DE25E1DFB889F434B43BB81177DA3B /* ReusableViewPool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A0DC689DE7F28A1E90B4EE8B6D4A6E /* ReusableViewPool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E19F86B49AB14C20F8E0DE4D98B77934 /* ReusableViewPool.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9BE06BEC750566E28E36D67B743DC8C8 /* ReusableViewPool.bundle */; };
+		F3FE82C102B43F0EF1F0514CCB213448 /* Pods-ReusableViewPool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14C6802E5CAC61B0D4BFE4F7FEC9D1DB /* Pods-ReusableViewPool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37F95AE16829F5C9299378489D746F91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37F2F89EA1CFB0DBD1A2640382983AC2;
+			remoteInfo = "ReusableViewPool-ReusableViewPool";
+		};
+		629401F58B53922CCFC37FF2DB3F5A29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 068993F0E66D7BADFB73BBE8F122512A;
+			remoteInfo = ReusableViewPool;
+		};
+		B2E94CF25446AAC5C25E6867AC4CDB04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 068993F0E66D7BADFB73BBE8F122512A;
+			remoteInfo = ReusableViewPool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03004A3D0B4881940AE472F071AD89B6 /* Pods-ReusableViewPool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ReusableViewPool_Example.modulemap"; sourceTree = "<group>"; };
+		072C56426FB3393D9D543691F31A5EEB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		076DD187A20800234B4329CBDC97E134 /* Pods-ReusableViewPool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReusableViewPool_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0A2976C5F789626F2BB920FFD71FAD92 /* Pods-ReusableViewPool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReusableViewPool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0A986D574E4349146F733796A40F60B7 /* Pods-ReusableViewPool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReusableViewPool_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0CFA0855189423144F2A89BC481ED990 /* ReusableViewPool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReusableViewPool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14C6802E5CAC61B0D4BFE4F7FEC9D1DB /* Pods-ReusableViewPool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ReusableViewPool_Example-umbrella.h"; sourceTree = "<group>"; };
+		15BA3ADAE58369393059510C6A5E71D2 /* Pods-ReusableViewPool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReusableViewPool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		20807A66D05FCF20EE9077DE8B557474 /* Pods_ReusableViewPool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReusableViewPool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20AEE8B2E6E50E5E2446AC4AC681D02E /* Pods-ReusableViewPool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReusableViewPool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		37FEAA5020186EF87FCD4EA9A975734A /* Pods-ReusableViewPool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReusableViewPool_Tests-dummy.m"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		47AE4317212AAB1D156CB02503540BF9 /* Pods-ReusableViewPool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ReusableViewPool_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4D50562E6FF880146AD2217ACBD24A8E /* Pods-ReusableViewPool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReusableViewPool_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		56C8207427B2B0C1226AFFEA02F08E5D /* Pods-ReusableViewPool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReusableViewPool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		57F3263FC748B687EDE287C72114F0AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A96F7F95469BC4633B9C90738D40C69 /* Pods_ReusableViewPool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReusableViewPool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		659623921D1523EDBCE2AA7AC08E87A5 /* Pods-ReusableViewPool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReusableViewPool_Example-dummy.m"; sourceTree = "<group>"; };
+		67FC56431C7E168B00B6E5AB /* ReusableViewPool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableViewPool.swift; sourceTree = "<group>"; };
+		7D2EDBFEB6FEE5F550C8AD08F5B3A6D2 /* ReusableViewPool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReusableViewPool-dummy.m"; sourceTree = "<group>"; };
+		8E0543E6E3D1E08974040D8DE7CF9103 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BE06BEC750566E28E36D67B743DC8C8 /* ReusableViewPool.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReusableViewPool.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2CE2D84DF6392B6F90D3F5570E53B00 /* Pods-ReusableViewPool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ReusableViewPool_Tests.modulemap"; sourceTree = "<group>"; };
+		B30EF2633B4F5093C18B15A25A507EC7 /* Pods-ReusableViewPool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReusableViewPool_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B3A0DC689DE7F28A1E90B4EE8B6D4A6E /* ReusableViewPool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReusableViewPool-umbrella.h"; sourceTree = "<group>"; };
+		B7E3B6BDE70BD8D6EFE41CFE35A7C4D2 /* ReusableViewPool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ReusableViewPool.modulemap; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C1A494B6F3DF36CB3B0A53048EE86AEB /* Pods-ReusableViewPool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReusableViewPool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C5E0445D327FDB8CDB57E98F6FA34AE8 /* Pods-ReusableViewPool_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReusableViewPool_Example-resources.sh"; sourceTree = "<group>"; };
+		E96E7F069A5C072151A5FD4DB790374B /* Pods-ReusableViewPool_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReusableViewPool_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F39678DC723E0566207784BF5912A5E7 /* ReusableViewPool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReusableViewPool-prefix.pch"; sourceTree = "<group>"; };
+		F3E421D611EA8EFCBDD27B4E7BC153B6 /* Pods-ReusableViewPool_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReusableViewPool_Tests-resources.sh"; sourceTree = "<group>"; };
+		F586934A3D6476CF63A502532663C488 /* ReusableViewPool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReusableViewPool.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DF6A56F591EA134B458609B2378B314 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E376B86CABD86E5CFB0FA181D58B508 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3997C35CA4EC94748161DF7BF42891DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7543451DF1245B80B4EF94990439173 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A733944C71A85501161E7CBCC109F7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A4CA2BCB79F5ADF7E610A2EBEDA2C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3A0F423E76D0A3D61B4F0B6DD1A2E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03BBD2D82264DCD5207946EF78951215 /* Pods-ReusableViewPool_Example */ = {
+			isa = PBXGroup;
+			children = (
+				57F3263FC748B687EDE287C72114F0AA /* Info.plist */,
+				03004A3D0B4881940AE472F071AD89B6 /* Pods-ReusableViewPool_Example.modulemap */,
+				20AEE8B2E6E50E5E2446AC4AC681D02E /* Pods-ReusableViewPool_Example-acknowledgements.markdown */,
+				15BA3ADAE58369393059510C6A5E71D2 /* Pods-ReusableViewPool_Example-acknowledgements.plist */,
+				659623921D1523EDBCE2AA7AC08E87A5 /* Pods-ReusableViewPool_Example-dummy.m */,
+				B30EF2633B4F5093C18B15A25A507EC7 /* Pods-ReusableViewPool_Example-frameworks.sh */,
+				C5E0445D327FDB8CDB57E98F6FA34AE8 /* Pods-ReusableViewPool_Example-resources.sh */,
+				14C6802E5CAC61B0D4BFE4F7FEC9D1DB /* Pods-ReusableViewPool_Example-umbrella.h */,
+				076DD187A20800234B4329CBDC97E134 /* Pods-ReusableViewPool_Example.debug.xcconfig */,
+				0A986D574E4349146F733796A40F60B7 /* Pods-ReusableViewPool_Example.release.xcconfig */,
+			);
+			name = "Pods-ReusableViewPool_Example";
+			path = "Target Support Files/Pods-ReusableViewPool_Example";
+			sourceTree = "<group>";
+		};
+		26C51C7C6E5FA294C35D596009D159E6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				03BBD2D82264DCD5207946EF78951215 /* Pods-ReusableViewPool_Example */,
+				BDC24D6858E6F83B6E015AF132F4AA97 /* Pods-ReusableViewPool_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6A173F041F08DDB49292E5C1BD014F02 /* ReusableViewPool */ = {
+			isa = PBXGroup;
+			children = (
+				BE415C09B80AA24859FDD715194ECB61 /* Pod */,
+				E7D54814A6F4E1C2A50B76D0233C54E5 /* Support Files */,
+			);
+			name = ReusableViewPool;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				AE02FE600ECC94BE4D914E9061CE3696 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				AEB7262B246E5A8F1E697C53101A7351 /* Products */,
+				26C51C7C6E5FA294C35D596009D159E6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AE02FE600ECC94BE4D914E9061CE3696 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A173F041F08DDB49292E5C1BD014F02 /* ReusableViewPool */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AEB7262B246E5A8F1E697C53101A7351 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20807A66D05FCF20EE9077DE8B557474 /* Pods_ReusableViewPool_Example.framework */,
+				5A96F7F95469BC4633B9C90738D40C69 /* Pods_ReusableViewPool_Tests.framework */,
+				9BE06BEC750566E28E36D67B743DC8C8 /* ReusableViewPool.bundle */,
+				0CFA0855189423144F2A89BC481ED990 /* ReusableViewPool.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDC24D6858E6F83B6E015AF132F4AA97 /* Pods-ReusableViewPool_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8E0543E6E3D1E08974040D8DE7CF9103 /* Info.plist */,
+				A2CE2D84DF6392B6F90D3F5570E53B00 /* Pods-ReusableViewPool_Tests.modulemap */,
+				56C8207427B2B0C1226AFFEA02F08E5D /* Pods-ReusableViewPool_Tests-acknowledgements.markdown */,
+				C1A494B6F3DF36CB3B0A53048EE86AEB /* Pods-ReusableViewPool_Tests-acknowledgements.plist */,
+				37FEAA5020186EF87FCD4EA9A975734A /* Pods-ReusableViewPool_Tests-dummy.m */,
+				E96E7F069A5C072151A5FD4DB790374B /* Pods-ReusableViewPool_Tests-frameworks.sh */,
+				F3E421D611EA8EFCBDD27B4E7BC153B6 /* Pods-ReusableViewPool_Tests-resources.sh */,
+				47AE4317212AAB1D156CB02503540BF9 /* Pods-ReusableViewPool_Tests-umbrella.h */,
+				0A2976C5F789626F2BB920FFD71FAD92 /* Pods-ReusableViewPool_Tests.debug.xcconfig */,
+				4D50562E6FF880146AD2217ACBD24A8E /* Pods-ReusableViewPool_Tests.release.xcconfig */,
+			);
+			name = "Pods-ReusableViewPool_Tests";
+			path = "Target Support Files/Pods-ReusableViewPool_Tests";
+			sourceTree = "<group>";
+		};
+		BE415C09B80AA24859FDD715194ECB61 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BF939AE8787D9A1A30F09D183A0142F6 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BF939AE8787D9A1A30F09D183A0142F6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				67FC56431C7E168B00B6E5AB /* ReusableViewPool.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E7D54814A6F4E1C2A50B76D0233C54E5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				072C56426FB3393D9D543691F31A5EEB /* Info.plist */,
+				B7E3B6BDE70BD8D6EFE41CFE35A7C4D2 /* ReusableViewPool.modulemap */,
+				F586934A3D6476CF63A502532663C488 /* ReusableViewPool.xcconfig */,
+				7D2EDBFEB6FEE5F550C8AD08F5B3A6D2 /* ReusableViewPool-dummy.m */,
+				F39678DC723E0566207784BF5912A5E7 /* ReusableViewPool-prefix.pch */,
+				B3A0DC689DE7F28A1E90B4EE8B6D4A6E /* ReusableViewPool-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ReusableViewPool";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3D3B9D7CD2157980A85F57C75DDB887C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB4A015855699B5EC6411CB29E27F2FC /* Pods-ReusableViewPool_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DEF7D295EB8FCADD256AE9EBC5540E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3FE82C102B43F0EF1F0514CCB213448 /* Pods-ReusableViewPool_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D418FFAF43067C7075C68FFFC8BDDC0B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4DE25E1DFB889F434B43BB81177DA3B /* ReusableViewPool-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		068993F0E66D7BADFB73BBE8F122512A /* ReusableViewPool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67A49AC32E7DDF21D52109F2F34370C9 /* Build configuration list for PBXNativeTarget "ReusableViewPool" */;
+			buildPhases = (
+				6A173A13F013792F2B06C9DB83E328A9 /* Sources */,
+				6A733944C71A85501161E7CBCC109F7D /* Frameworks */,
+				F50D673C56E53312FB27AE4C1A127850 /* Resources */,
+				D418FFAF43067C7075C68FFFC8BDDC0B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FE2966681DBB21C6283B5405D80D583 /* PBXTargetDependency */,
+			);
+			name = ReusableViewPool;
+			productName = ReusableViewPool;
+			productReference = 0CFA0855189423144F2A89BC481ED990 /* ReusableViewPool.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1CDD0E615AFD42CE8ED3EEA3463D2C97 /* Pods-ReusableViewPool_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31B028EA4E8767F374611DE8CF6AC547 /* Build configuration list for PBXNativeTarget "Pods-ReusableViewPool_Tests" */;
+			buildPhases = (
+				978234B37E684C05FB315486E4DBAB26 /* Sources */,
+				1DF6A56F591EA134B458609B2378B314 /* Frameworks */,
+				3D3B9D7CD2157980A85F57C75DDB887C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BD4D3939AA59D0D266B6AC63113BCC5 /* PBXTargetDependency */,
+			);
+			name = "Pods-ReusableViewPool_Tests";
+			productName = "Pods-ReusableViewPool_Tests";
+			productReference = 5A96F7F95469BC4633B9C90738D40C69 /* Pods_ReusableViewPool_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		37F2F89EA1CFB0DBD1A2640382983AC2 /* ReusableViewPool-ReusableViewPool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9ED4473D39EBAE9DB4BA8D3836132A1 /* Build configuration list for PBXNativeTarget "ReusableViewPool-ReusableViewPool" */;
+			buildPhases = (
+				09484585ACA53DF43064B750042F5EF1 /* Sources */,
+				FE3A0F423E76D0A3D61B4F0B6DD1A2E8 /* Frameworks */,
+				88338835A6015F4A577C6D00C7E7B329 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ReusableViewPool-ReusableViewPool";
+			productName = "ReusableViewPool-ReusableViewPool";
+			productReference = 9BE06BEC750566E28E36D67B743DC8C8 /* ReusableViewPool.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		DA6689372229B81487A521C881205C4B /* Pods-ReusableViewPool_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B69D76A51B56134110A0CC74DD2025D /* Build configuration list for PBXNativeTarget "Pods-ReusableViewPool_Example" */;
+			buildPhases = (
+				16127065E5553E2BCE525F20280A05A4 /* Sources */,
+				3997C35CA4EC94748161DF7BF42891DC /* Frameworks */,
+				A7DEF7D295EB8FCADD256AE9EBC5540E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97DFFF5E05E430FB9C9BEB78C571F044 /* PBXTargetDependency */,
+			);
+			name = "Pods-ReusableViewPool_Example";
+			productName = "Pods-ReusableViewPool_Example";
+			productReference = 20807A66D05FCF20EE9077DE8B557474 /* Pods_ReusableViewPool_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = AEB7262B246E5A8F1E697C53101A7351 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA6689372229B81487A521C881205C4B /* Pods-ReusableViewPool_Example */,
+				1CDD0E615AFD42CE8ED3EEA3463D2C97 /* Pods-ReusableViewPool_Tests */,
+				068993F0E66D7BADFB73BBE8F122512A /* ReusableViewPool */,
+				37F2F89EA1CFB0DBD1A2640382983AC2 /* ReusableViewPool-ReusableViewPool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88338835A6015F4A577C6D00C7E7B329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50D673C56E53312FB27AE4C1A127850 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19F86B49AB14C20F8E0DE4D98B77934 /* ReusableViewPool.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09484585ACA53DF43064B750042F5EF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16127065E5553E2BCE525F20280A05A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1903FE18956552FBEE079A076250A433 /* Pods-ReusableViewPool_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A173A13F013792F2B06C9DB83E328A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D4BE8ABC621FBAC5D2DE1084DFC0DE /* ReusableViewPool-dummy.m in Sources */,
+				67FC56441C7E168B00B6E5AB /* ReusableViewPool.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		978234B37E684C05FB315486E4DBAB26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A9F08012D7FAFB3E7390A3E5AD5E8E /* Pods-ReusableViewPool_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BD4D3939AA59D0D266B6AC63113BCC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReusableViewPool;
+			target = 068993F0E66D7BADFB73BBE8F122512A /* ReusableViewPool */;
+			targetProxy = B2E94CF25446AAC5C25E6867AC4CDB04 /* PBXContainerItemProxy */;
+		};
+		8FE2966681DBB21C6283B5405D80D583 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ReusableViewPool-ReusableViewPool";
+			target = 37F2F89EA1CFB0DBD1A2640382983AC2 /* ReusableViewPool-ReusableViewPool */;
+			targetProxy = 37F95AE16829F5C9299378489D746F91 /* PBXContainerItemProxy */;
+		};
+		97DFFF5E05E430FB9C9BEB78C571F044 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReusableViewPool;
+			target = 068993F0E66D7BADFB73BBE8F122512A /* ReusableViewPool */;
+			targetProxy = 629401F58B53922CCFC37FF2DB3F5A29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27F1568ECE39F229D5422D99986FA442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F586934A3D6476CF63A502532663C488 /* ReusableViewPool.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ReusableViewPool/ReusableViewPool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReusableViewPool/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReusableViewPool/ReusableViewPool.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ReusableViewPool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2A0E72F00F26A56A70D4279E613F22F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F586934A3D6476CF63A502532663C488 /* ReusableViewPool.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ReusableViewPool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		46C0D601E40E9825C8D3C91AC531B566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F586934A3D6476CF63A502532663C488 /* ReusableViewPool.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ReusableViewPool/ReusableViewPool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReusableViewPool/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReusableViewPool/ReusableViewPool.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ReusableViewPool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4A201FF7C38A5793772A2257B35EBA7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D50562E6FF880146AD2217ACBD24A8E /* Pods-ReusableViewPool_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ReusableViewPool_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReusableViewPool_Tests/Pods-ReusableViewPool_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ReusableViewPool_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		51D3C5528A9066E9A3C01E2B28AF5B53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A986D574E4349146F733796A40F60B7 /* Pods-ReusableViewPool_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ReusableViewPool_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReusableViewPool_Example/Pods-ReusableViewPool_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ReusableViewPool_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5B47D1283ED74522C1DA1DE74A75BD5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F586934A3D6476CF63A502532663C488 /* ReusableViewPool.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ReusableViewPool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7AEC4AF44E438073B8A747589AB5EDAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A2976C5F789626F2BB920FFD71FAD92 /* Pods-ReusableViewPool_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ReusableViewPool_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReusableViewPool_Tests/Pods-ReusableViewPool_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ReusableViewPool_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F8E442C7BFECB68FC30D218402E6403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 076DD187A20800234B4329CBDC97E134 /* Pods-ReusableViewPool_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ReusableViewPool_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReusableViewPool_Example/Pods-ReusableViewPool_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ReusableViewPool_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B69D76A51B56134110A0CC74DD2025D /* Build configuration list for PBXNativeTarget "Pods-ReusableViewPool_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F8E442C7BFECB68FC30D218402E6403 /* Debug */,
+				51D3C5528A9066E9A3C01E2B28AF5B53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31B028EA4E8767F374611DE8CF6AC547 /* Build configuration list for PBXNativeTarget "Pods-ReusableViewPool_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AEC4AF44E438073B8A747589AB5EDAF /* Debug */,
+				4A201FF7C38A5793772A2257B35EBA7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67A49AC32E7DDF21D52109F2F34370C9 /* Build configuration list for PBXNativeTarget "ReusableViewPool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46C0D601E40E9825C8D3C91AC531B566 /* Debug */,
+				27F1568ECE39F229D5422D99986FA442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9ED4473D39EBAE9DB4BA8D3836132A1 /* Build configuration list for PBXNativeTarget "ReusableViewPool-ReusableViewPool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B47D1283ED74522C1DA1DE74A75BD5B /* Debug */,
+				2A0E72F00F26A56A70D4279E613F22F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

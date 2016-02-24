@@ -1,0 +1,14 @@
+PODS:
+  - ReusableViewPool (0.1.0)
+
+DEPENDENCIES:
+  - ReusableViewPool (from `../`)
+
+EXTERNAL SOURCES:
+  ReusableViewPool:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ReusableViewPool: 7abb8590bf9b440fcb9a016f23bf10e02cdaf62a
+
+COCOAPODS: 0.39.0

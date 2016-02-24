@@ -1,0 +1,6 @@
+framework module Pods_ReusableViewPool_Example {
+  umbrella header "Pods-ReusableViewPool_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
